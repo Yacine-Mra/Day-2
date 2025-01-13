@@ -26,7 +26,7 @@ class voiture:
             print("False")
         
 bugatti=voiture("Bugatti","Type 35",1924,300000) 
-audi=voiture("Audi ", "A4", 2015, -20)
+audi=voiture("Audi ", "A4", 2015, 20)
 bugatti.augmenter_kilometrage()
 audi.augmenter_kilometrage() 
 print("Voici les détails de l'audi : ")

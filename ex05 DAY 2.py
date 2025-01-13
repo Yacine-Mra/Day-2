@@ -29,7 +29,7 @@ class combat:
             self.mage.attaquer(self.guerrier)
 
 mage = mage("Api", 100, 10)
-guerrier = guerrier("Lancelot", 100, 10)
+guerrier = guerrier("Lancelot", 100, 15)
 
 print ("Voici le combat")
 print (mage.nom + " a " + str(mage.points_de_vie) + " points de vie pour une force de " + str(mage.force))

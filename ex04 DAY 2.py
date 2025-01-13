@@ -51,9 +51,9 @@ le_magasin.ajouter_produit(pain)
 le_magasin.ajouter_produit(poire)
 le_magasin.ajouter_produit(peche)
 
-le_magasin.rechercher_produit()
+le_magasin.rechercher_produit("Pain")
 
-le_magasin.vendre_produit()
+le_magasin.vendre_produit("Pain")
 
 le_magasin.afficher_inventaire()
 
